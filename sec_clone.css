@@ -1,0 +1,56 @@
+.inner{
+
+    /* 메뉴상단바 고정 */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.text-top{
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-self: flex-start;
+
+}
+
+.text-mid{
+    font-size: 1rem;
+    display: flex;;
+    justify-self: flex-start;
+    align-items: center;
+
+}
+
+.text-bottom{
+    text-align: center;
+    color: #fff;
+    justify-self: flex-end;
+    align-items: flex-end;
+}
+
+
+
+.main-content{
+    margin-top: 70px;
+    height: 300px;
+    width: 100%;
+    background-image: url('https://www.fun-coding.org/assets_lms/images/photodune-4161018-group-of-students-m.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
